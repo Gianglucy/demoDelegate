@@ -8,6 +8,11 @@
 
 import UIKit
 
+protocol ColorDelegate
+{
+    func changeColor(color: UIColor)
+}
+
 class thirdViewController: UIViewController {
 
 //    var myBTN = UIButton()
@@ -19,21 +24,21 @@ class thirdViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         btnYellow.setTitleColor(.white, for: .normal)
-        btnYellow.backgroundColor = .yellow
+        btnYellow.backgroundColor = .systemYellow
         btnBack.setTitleColor(.white, for: .normal)
-        btnBack.backgroundColor = .red
+        btnBack.backgroundColor = .systemRed
         btnGreen.setTitleColor(.white, for: .normal)
-        btnGreen.backgroundColor = .green
+        btnGreen.backgroundColor = .systemGreen
     }
 
     @IBAction func backYellow(_ sender: Any) {
-        delegate?.changeColor(color: .yellow)
+        delegate?.changeColor(color: .systemYellow)
     }
     @IBAction func back(_ sender: Any) {
         navigationController?.popViewController(animated: true)
-        delegate?.changeColor(color: .red)
+        delegate?.changeColor(color: .systemRed)
     }
     @IBAction func backGreen(_ sender: Any) {
-        delegate?.changeColor(color: .green)
+        delegate?.changeColor(color: .systemGreen)
     }
 }

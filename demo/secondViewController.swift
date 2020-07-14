@@ -8,12 +8,6 @@
 
 import UIKit
 
-protocol ColorDelegate
-{
-    func changeColor(color: UIColor)
-}
-
-
 class secondViewController: UIViewController {
 
     @IBOutlet weak var myBTN: UIButton!
@@ -22,7 +16,7 @@ class secondViewController: UIViewController {
         super.viewDidLoad()
         self.title = "second"
         myBTN.setTitleColor(.white, for: .normal)
-        myBTN.backgroundColor = .blue
+        myBTN.backgroundColor = .systemBlue
         
     }
 
