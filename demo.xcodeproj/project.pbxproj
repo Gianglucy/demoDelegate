@@ -13,6 +13,10 @@
 		18C41DC024BDB3050083B22A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C41DBE24BDB3050083B22A /* Main.storyboard */; };
 		18C41DC224BDB30A0083B22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C41DC124BDB30A0083B22A /* Assets.xcassets */; };
 		18C41DC524BDB30A0083B22A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C41DC324BDB30A0083B22A /* LaunchScreen.storyboard */; };
+		18C41DD024BDB9B40083B22A /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C41DCE24BDB9B40083B22A /* secondViewController.swift */; };
+		18C41DD124BDB9B40083B22A /* secondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C41DCF24BDB9B40083B22A /* secondViewController.xib */; };
+		18C41DD424BDBDC50083B22A /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C41DD224BDBDC50083B22A /* thirdViewController.swift */; };
+		18C41DD524BDBDC50083B22A /* thirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C41DD324BDBDC50083B22A /* thirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		18C41DC124BDB30A0083B22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C41DC424BDB30A0083B22A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C41DC624BDB30A0083B22A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C41DCE24BDB9B40083B22A /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		18C41DCF24BDB9B40083B22A /* secondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = secondViewController.xib; sourceTree = "<group>"; };
+		18C41DD224BDBDC50083B22A /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		18C41DD324BDBDC50083B22A /* thirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = thirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				18C41DBA24BDB3050083B22A /* SceneDelegate.swift */,
 				18C41DBC24BDB3050083B22A /* ViewController.swift */,
 				18C41DBE24BDB3050083B22A /* Main.storyboard */,
+				18C41DCE24BDB9B40083B22A /* secondViewController.swift */,
+				18C41DD224BDBDC50083B22A /* thirdViewController.swift */,
+				18C41DD324BDBDC50083B22A /* thirdViewController.xib */,
+				18C41DCF24BDB9B40083B22A /* secondViewController.xib */,
 				18C41DC124BDB30A0083B22A /* Assets.xcassets */,
 				18C41DC324BDB30A0083B22A /* LaunchScreen.storyboard */,
 				18C41DC624BDB30A0083B22A /* Info.plist */,
@@ -125,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C41DD524BDBDC50083B22A /* thirdViewController.xib in Resources */,
+				18C41DD124BDB9B40083B22A /* secondViewController.xib in Resources */,
 				18C41DC524BDB30A0083B22A /* LaunchScreen.storyboard in Resources */,
 				18C41DC224BDB30A0083B22A /* Assets.xcassets in Resources */,
 				18C41DC024BDB3050083B22A /* Main.storyboard in Resources */,
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18C41DD024BDB9B40083B22A /* secondViewController.swift in Sources */,
 				18C41DBD24BDB3050083B22A /* ViewController.swift in Sources */,
+				18C41DD424BDBDC50083B22A /* thirdViewController.swift in Sources */,
 				18C41DB924BDB3050083B22A /* AppDelegate.swift in Sources */,
 				18C41DBB24BDB3050083B22A /* SceneDelegate.swift in Sources */,
 			);
@@ -291,7 +307,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luunguyenduc1995.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luunguyenduc1995.demoCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.luunguyenduc1995.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luunguyenduc1995.demoCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
